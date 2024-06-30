@@ -1,0 +1,89 @@
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #f4bdf3;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #845bb3;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background: #E5EAF5;
+    padding: 20px;
+    box-shadow: 0 0 10px #494d5f;
+    border-radius: 8px;
+}
+
+
+
+.insight {
+    margin-bottom: 20px;
+}
+
+.insight h2 {
+    font-size: 1.4em;
+    color: #2c9de8;
+    margin-bottom: 10px;
+}
+
+.insight p {
+    font-size: 1.1em;
+    color: #333;
+    line-height: 1.6;
+}
+
+.insight img {
+    width: 250px;
+    height: 250px;
+    margin-top: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}   
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #9989f2;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #d5f1ff;
+    color: #333;
+}
+
+footer {
+    background-color: #845bb3;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
